@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/hypechats/public_html/
+    - export DEPLOYPATH=/home/hypechats/bot.davidk.online/
     - /bin/cp index.html $DEPLOYPATH
-    
+    - /bin/cp style.css $DEPLOYPATH
