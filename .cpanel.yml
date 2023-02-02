@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/hypechats/bot.davidk.online/
+    - export DEPLOYPATH=/home/hypechats/bot/
     - /bin/cp * $DEPLOYPATH
